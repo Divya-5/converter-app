@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="display-4 text-center mb-3">Converter</h1>
+        <h1 class="display-4 text-center mb-3">Converter App</h1>
         <form>
             <h4 class="display-5 text-left mb-3">Weight</h4>
             <div class="form-group">
@@ -40,7 +40,8 @@
         <div class="form-group">
           <input id="celciusInput" type="number" class="form-control form-control-lg" placeholder="Enter Celcius...">
         </div>
-      </form><div class="card card-danger mb-4">
+      </form>
+      <div class="card card-danger mb-4">
         <div class="card-block">
           <h4>Fahrenheit:</h4>
           <div id="fahrenOutput"></div>
@@ -57,7 +58,31 @@
           <div id="celciusOutput"></div>
         </div>
       </div>
+    <form>
+      <h4 class="display-5 text-left mb-3">Hours to Seconds</h4>
+      <div class="form-group">
+        <input id="hourInput" type="number" class="form-control form-control-lg" placeholder="Enter Hours...">
+      </div>
+    </form>
+    <div class="card card-danger mb-4">
+      <div class="card-block">
+        <h4>Seconds:</h4>
+        <div id="secOutput"></div>
+      </div>
     </div>
+    <form>
+      <h4 class="display-5 text-left mb-3">Litres to Millilitres</h4>
+      <div class="form-group">
+        <input id="literInput" type="number" class="form-control form-control-lg" placeholder="Enter Litres...">
+      </div>
+    </form>
+    <div class="card card-danger mb-4">
+      <div class="card-block">
+        <h4>Millilitres:</h4>
+        <div id="mililiterOutput"></div>
+      </div>
+    </div>
+  </div>
     <script src="main.js"></script>
 </body>
 </html>

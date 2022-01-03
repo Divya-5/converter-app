@@ -15,3 +15,11 @@ document.getElementById("celciusInput").addEventListener("input", e => {
     let farenheit = e.target.value;
     document.getElementById("celciusOutput").innerHTML =  5/9 * (farenheit - 32) ;
   })
+  document.getElementById("hourInput").addEventListener("input", (e) => {
+    let hour = e.target.value;
+    document.getElementById("secOutput").innerHTML = hour * 60 * 60;
+  });
+  document.getElementById("literInput").addEventListener("input", (e) => {
+    let lit = e.target.value;
+    document.getElementById("mililiterOutput").innerHTML = lit * 1000;
+  });
